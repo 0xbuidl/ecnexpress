@@ -17,5 +17,3 @@ fields:
 - type: number
   name: timeToRead
   label: timeToRead
-pages:
-- content/post/ecn-express.md
