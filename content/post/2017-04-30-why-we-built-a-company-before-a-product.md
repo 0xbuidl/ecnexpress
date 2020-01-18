@@ -1,157 +1,34 @@
 ---
-title: Why we built a company before building a product and why it worked
-date: 2017-04-30
-hero: /images/hero-6.jpg
-excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel apps in the U.S, along with Uber, Lyft.
-timeToRead: 3
-authors:
-  - Thiago Costa
+title: ECN EXPRESS
+date: 2020-01-08T16:00:00+00:00
+hero: ''
+excerpt: "4"
+timeToRead: "2"
+authors: []
 
 ---
+☄️𝐄𝐂𝐍 | Ξ𝐗𝐏𝐑Ξ𝐒𝐒☄️
 
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+ᨏᨓᨐ 𝕖𝕥𝕙𝕖𝕣𝕖𝕦𝕞.𝕔𝕟 ᨐᨓᨏ 
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+▫️ MetaMask将举办一场名为“Generalized MetaTransaction Contest”的黑客松🛠，要求参赛者编写一个添加到任何智能合约的元交易通用标准，使得任何基于密钥的账户都能进行元交易（即第三方替账户支付gas的交易）。优胜者将赢得20个ETH与1000个DAI哦💸！详情请看：[https://gitcoin.co/issue/MetaMask/Hackathons/2/3865](https://gitcoin.co/issue/MetaMask/Hackathons/2/3865 "https://gitcoin.co/issue/MetaMask/Hackathons/2/3865")
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+ 
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+▫️ ETHDenver黑客松🛠将在2020年的2月14日到16号举行，黑客松开始前四天还将举办meetups、workshops、演讲等活动。免费申请参加黑客松链接🏻[https://www.ethdenver.com/](https://gitcoin.co/issue/MetaMask/Hackathons/2/3865 "https://gitcoin.co/issue/MetaMask/Hackathons/2/3865")
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+ 
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+▫️目前支持ENS域名的钱包和app已超过80个，LocalCryptos网页钱包也正式加入此队列，用LocalCryptos就能发送加密货币到以“.eth”、“.luxe”和“.xyz”结尾的ENS地址🔛。
 
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
+ 
 
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
+▫️开源借贷市场协议Aave Protocol上线以太坊主网！功能包括：闪借(Flash loans)，即用户无需抵押品也可从借贷池借入资产，该协议则借助智能合约强制还款；利率转换(Rate Switching)，即自动帮助用户在固定利率与浮动利率两种模式中选择最优利率，以获得更多利息。从低抵押到零抵押🧗，优秀！
 
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
+ 
 
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+▫️ USDT发行方Tether将价值1500万的以太坊USDT（与美元挂钩的数字货币）转移至Blockstream开发的比特币侧链 Liquid 网络。通过添加保密交易协议，Liquid USDT可能将成为首个大规模隐私数字资产的用例。隐私安全从来都是区块链技术的发展重点🥊
 
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
+ᨏᨓᨐ ʙᴜɪᴅʟ.ᴇᴛʜ ᨐᨓᨏ
 
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
-
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-# This is a primary heading
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-## This is a secondary heading
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
----
-
-Hyphens
-
----
-
-Asterisks
-
----
-
-Underscores
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-   ⋅⋅\* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
+（本信息仅作资讯内容，不构成任何投资建议，大家应警惕代币发行融资与交易的风险隐患）
