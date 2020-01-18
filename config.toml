@@ -1,4 +1,16 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "lanyon-hugo"
+theme = "lanyon-hugo
+{
+"params": {
+    "Title": "ECN",
+    "Tagline": "Express",
+    "Author": "ECN",
+    "DateForm": "Jan 2 2006",
+    "Github": {
+        "Url": "",
+        "Head": "master"
+    }
+}
+}

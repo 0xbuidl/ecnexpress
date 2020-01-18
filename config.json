@@ -1,0 +1,38 @@
+{
+    "contentdir": "content",
+    "layoutdir": "layouts",
+    "publishdir": "public",
+
+    "builddrafts": false,
+
+    "baseurl": "https://tummychow.github.io/lanyon-hugo/",
+    "canonifyurls": true,
+    "permalinks": {
+        "post": ":year/:month/:day/:title/",
+        "fixed": ":title/"
+    },
+
+    "markup": {
+        "goldmark": {
+            "extensions": {
+                "typographer": true
+            },
+            "renderer": {
+                "unsafe": true
+            }
+        }
+    },
+
+    "pygmentsuseclasses": true,
+
+    "params": {
+        "Title": "ECN",
+        "Tagline": "Express",
+        "Author": "ECN",
+        "DateForm": "Jan 2 2006",
+        "Github": {
+            "Url": "",
+            "Head": "master"
+        }
+    }
+}
