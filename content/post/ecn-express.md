@@ -3,7 +3,7 @@ date = 2020-01-16T16:00:00Z
 excerpt = ""
 hero = ""
 timeToRead = 2
-title = "ECN|EXPRESS"
+title = "ECN EXPRESS"
 
 +++
 ☄️𝐄𝐂𝐍 | Ξ𝐗𝐏𝐑Ξ𝐒𝐒☄️
