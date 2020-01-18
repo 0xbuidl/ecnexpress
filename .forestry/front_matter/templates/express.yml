@@ -18,6 +18,5 @@ fields:
   name: timeToRead
   label: timeToRead
 pages:
-- content/post/a.md
 - content/post/b.md
 - content/post/ecn-express.md
